@@ -1,4 +1,4 @@
-# Nazca_DMI2015
+# DMI2015
 The scripts in this folder were written in occasion of the 2015 Digital Methods Initiative Winter School
 
 ### translation_stemming.py
@@ -7,4 +7,9 @@ It would have been desirable to apply the stopwords list directly to the origina
 
 The script also provide the word occurrencies. The data related to these frequencies are dirty, due to the presence of several URLs in the dataset, each of one occurring only once.
 
-###
+### news_image_scraping.py
+This script downloads automatically the images associated to the URLs in the 'images_url' column of the news dataset of the dataset related to the Nazca incident in December 2014.
+
+### datasets
+This folder contains the datasets with the tweets related to the Nazca incident from the dataset provided by Greenpeace, which were retweeted at least twice and were either in English, Spanish or Japanese.
+The news dataset, which is referred by the news_image_scraping.py, was too big to be included.
