@@ -11,6 +11,7 @@ The script also provide the word occurrencies. The data related to these frequen
 This script downloads automatically the images associated to the URLs in the 'images_url' column of the news dataset of the dataset related to the Nazca incident in December 2014.
 
 ### datasets
+### datasets are not available anymore, as they are not open
 This folder contains:
 - the datasets with the tweets related to the Nazca incident from the dataset provided by Greenpeace, which were retweeted at least twice and were either in English, Spanish or Japanese (tweets_eng.csv, tweets_es.csv, tweets_ja.csv).
 - the news dataset, referred by the news_image_scraping.py.
